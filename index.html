@@ -341,8 +341,16 @@ document.body.appendChild(b);
 }
 
 </script>
-<audio id="bgMusic" autoplay loop>
+<audio id="song" loop>
     <source src="birthday.mp3" type="audio/mpeg">
 </audio>
+
+<button onclick="playSong()">🎵 Play Song</button>
+
+<script>
+function playSong(){
+    document.getElementById("song").play();
+}
+</script>
 </body>
 </html>
