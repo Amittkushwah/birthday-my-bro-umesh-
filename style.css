@@ -377,3 +377,52 @@ display:none;
 }
 
 }
+@media(max-width:480px){
+
+.hero{
+    height:100vh;
+    padding:15px;
+}
+
+.hero h1{
+    font-size:38px;
+    line-height:1.2;
+}
+
+.hero h2{
+    font-size:24px;
+    margin:15px 0;
+}
+
+.hero p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.btn{
+    font-size:16px;
+    padding:12px 25px;
+}
+
+.logo{
+    font-size:22px;
+}
+
+.section{
+    padding:70px 5%;
+}
+
+.title{
+    font-size:30px;
+}
+
+.message{
+    padding:25px 15px;
+    font-size:16px;
+}
+
+}
