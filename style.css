@@ -102,14 +102,14 @@ padding:20px;
 
 .hero-content{
 
-max-width:900px;
+max-width:700px;
 
 }
 
 .hero h1{
 
 font-size:75px;
-font-weight:800;
+font-weight:600;
 
 animation:glow 2s infinite;
 
