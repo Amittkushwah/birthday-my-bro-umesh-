@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Umesh Kushwaha</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#090909;
+color:#fff;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.45);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#ff4da6;
+}
+
+nav a{
+text-decoration:none;
+color:#fff;
+margin-left:25px;
+font-weight:500;
+}
+
+.hero{
+
+height:100vh;
+
+background:
+
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+url(images/photo1.jpg);
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+
+.hero-content{
+
+max-width:900px;
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:70px;
+color:#fff;
+
+}
+
+.hero h2{
+
+font-size:45px;
+margin:20px 0;
+color:#ffcc00;
+
+}
+
+.hero p{
+
+font-size:22px;
+line-height:1.8;
+
+}
+
+.btn{
+
+display:inline-block;
+margin-top:35px;
+padding:15px 35px;
+background:#ff4da6;
+border-radius:40px;
+color:#fff;
+text-decoration:none;
+font-size:20px;
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:#fff;
+color:#ff4da6;
+
+}
+
+.section{
+
+padding:100px 8%;
+
+}
+
+.title{
+
+text-align:center;
+font-size:45px;
+margin-bottom:60px;
+
+}
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+}
+
+.gallery img{
+
+width:100%;
+border-radius:15px;
+transition:.5s;
+box-shadow:0 0 25px rgba(255,255,255,.15);
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+.message{
+
+max-width:900px;
+margin:auto;
+text-align:center;
+font-size:22px;
+line-height:2;
+
+}
+
+footer{
+
+padding:40px;
+text-align:center;
+background:#111;
+margin-top:80px;
+
+}
+
+.balloon{
+
+position:fixed;
+bottom:-100px;
+font-size:40px;
+animation:float linear infinite;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🎂 Umesh
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#gallery">Gallery</a>
+<a href="#message">Message</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Happy Birthday 🎉</h1>
+
+<h2>UMESH KUSHWAHA ❤️</h2>
+
+<p>
+
+Wishing you endless happiness,
+good health,
+success,
+and lots of love.
+
+Thank you for always being the best brother.
+
+</p>
+
+<a href="#gallery" class="btn">
+
+View Memories ❤️
+
+</a>
+
+</div>
+
+</section>
+
+<section class="section" id="gallery">
+
+<h2 class="title">
+
+📸 Our Beautiful Memories
+
+</h2>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+
+<img src="images/photo2.jpg">
+
+<img src="images/photo3.jpg">
+
+<img src="images/photo4.jpg">
+
+<img src="images/photo5.jpg">
+
+</div>
+
+</section>
+
+<section class="section" id="message">
+
+<h2 class="title">
+
+💝 Special Message
+
+</h2>
+
+<div class="message">
+
+Dear Umesh,
+
+Happy Birthday to the most wonderful brother.
+
+May your smile never fade,
+
+your dreams come true,
+
+and your life always be filled
+
+with love, success, happiness,
+
+and countless beautiful memories.
+
+You are not only my brother,
+
+you are my best friend.
+
+❤️ Happy Birthday ❤️
+
+</div>
+
+</section>
+
+<footer>
+
+Made with ❤️ for Umesh Kushwaha
+
+</footer>
+
+<script>
+
+for(let i=0;i<35;i++){
+
+let b=document.createElement("div");
+
+b.className="balloon";
+
+b.innerHTML=["🎈","❤️","✨","🎉","🎂"][Math.floor(Math.random()*5)];
+
+b.style.left=Math.random()*100+"%";
+
+b.style.animationDuration=(6+Math.random()*8)+"s";
+
+b.style.fontSize=(25+Math.random()*35)+"px";
+
+document.body.appendChild(b);
+
+}
+
+</script>
+
+</body>
+</html>
