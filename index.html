@@ -348,8 +348,11 @@ document.body.appendChild(b);
 <button onclick="playSong()">🎵 Play Song</button>
 
 <script>
-function playSong(){
-    document.getElementById("song").play();
+<audio id="song" src="birthday.mp3"></audio>
+
+<button onclick="document.getElementById('song').play()">
+🎵 Play Birthday Song
+</button>
 }
 </script>
 </body>
